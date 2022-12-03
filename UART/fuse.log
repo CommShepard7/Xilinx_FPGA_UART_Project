@@ -1,0 +1,33 @@
+Running: /mnt/n7fs/install/xilinx_14.7/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o bin -prj ise.prj -top testRxUnit 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "RxUnit.vhd" into library work
+Parsing VHDL file "../TxUnit/TxUnit.vhd" into library work
+Parsing VHDL file "diviseurClk.vhd" into library work
+Parsing VHDL file "UART.vhd" into library work
+Parsing VHDL file "echoUnit.vhd" into library work
+Parsing VHDL file "ctrlUnit.vhd" into library work
+Parsing VHDL file "../clkUnit/clkUnit.vhd" into library work
+Parsing VHDL file "testRxUnit.vhd" into library work
+Parsing VHDL file "UART_FPGA_N4.vhd" into library work
+WARNING:HDLCompiler:946 - "UART_FPGA_N4.vhd" Line 67: Actual for formal port reset is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "UART_FPGA_N4.vhd" Line 72: Actual for formal port reset is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "UART_FPGA_N4.vhd" Line 86: Actual for formal port reset is neither a static name nor a globally static expression
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 85032 KB
+Fuse CPU Usage: 880 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture rxunit_arch of entity RxUnit [rxunit_default]
+Compiling architecture behavorial of entity clkUnit [\clkUnit(16)\]
+Compiling architecture behavior of entity testrxunit
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Built simulation executable bin
+Fuse Memory Usage: 650828 KB
+Fuse CPU Usage: 910 ms
+GCC CPU Usage: 160 ms
